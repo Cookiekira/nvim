@@ -1,6 +1,7 @@
 return {
   "nvim-treesitter/nvim-treesitter",
-  opts = {
-    -- ensure_installed = { "lua" },
+  dependencies = {
+    "HiPhish/nvim-ts-rainbow2",
   },
+  opts = { rainbow = { enable = true } },
 }
