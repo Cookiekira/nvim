@@ -1,3 +1,4 @@
+local get_icon = require("astronvim.utils").get_icon
 return {
   -- You can also add new plugins here as well:
   -- Add plugins, the lazy syntax
@@ -9,4 +10,12 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    opts = {
+      window = {
+        position = "right",
+      },
+    },
+  }
 }

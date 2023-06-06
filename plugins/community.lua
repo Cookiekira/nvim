@@ -6,5 +6,7 @@ return {
 
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.pack.rust" },
 
 }
+ 
