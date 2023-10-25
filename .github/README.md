@@ -21,13 +21,13 @@ Make a backup of your current nvim and nvim-data folder
 Rename-Item -Path $env:LOCALAPPDATA\nvim -NewName $env:LOCALAPPDATA\nvim.bak
 Rename-Item -Path $env:LOCALAPPDATA\nvim-data -NewName $env:LOCALAPPDATA\nvim-data.bak
 ```
-#### Clone the user repository
+### Clone the user repository
 
 ```shell
 git clone https://github.com/Cookiekira/nvim ~/.config/nvim/lua/user
 ```
 
-#### Start Neovim
+### Start Neovim
 
 ```shell
 nvim
