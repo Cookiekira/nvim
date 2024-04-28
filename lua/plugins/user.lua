@@ -69,6 +69,11 @@ return { -- == Examples of Adding Plugins ==
       window = {
         position = "right",
       },
+      filesystem = {
+        filtered_items = {
+          visible = true,
+        },
+      },
     },
   },
   { -- override nvim-cmp plugin
