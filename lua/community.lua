@@ -17,7 +17,7 @@ return {
   },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.recipes.ai" },
-  { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.completion.copilot-cmp" },
   {
     import = "astrocommunity.markdown-and-latex.markdown-preview-nvim",
   },
