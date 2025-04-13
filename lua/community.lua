@@ -15,9 +15,9 @@ return {
   {
     import = "astrocommunity.colorscheme.tokyonight-nvim",
   },
-  {
-    import = "astrocommunity.completion.copilot-lua",
-  },
+  { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.recipes.ai" },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
   {
     import = "astrocommunity.markdown-and-latex.markdown-preview-nvim",
   },
