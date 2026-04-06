@@ -17,8 +17,6 @@ return {"AstroNvim/astrocommunity", {
 }, {
     import = "astrocommunity.recipes.ai"
 }, {
-    import = "astrocommunity.completion.copilot-cmp"
-}, {
     import = "astrocommunity.markdown-and-latex.markdown-preview-nvim"
 }, {
     import = "astrocommunity.editing-support.nvim-treesitter-context"
